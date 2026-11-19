@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.exe
+*.dll
+*.zip
+*.xci
+*.nsp
+*.nca
+*.keys
+*.ini
+*.log
+*_data/
+*_build/
+romfs/
+exefs/
+save/
+dist/

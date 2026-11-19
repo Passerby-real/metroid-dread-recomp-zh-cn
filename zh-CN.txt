@@ -1,0 +1,594 @@
+SETUP|安装
+PLAY|开始游戏
+DISPLAY|显示
+GRAPHICS|图形
+GAMEPLAY|游戏
+AUDIO|音频
+CONTROLS|控制
+MODS|模组
+ADVANCED|高级
+CREDITS|制作人员
+HELP|帮助
+MENU|设置菜单
+READY|已就绪
+RECOMPILED FOR PC|PC 重编译版
+Display|显示
+Graphics|图形
+Performance|性能
+Gameplay|游戏
+Audio|音频
+Controls|控制
+Launcher|启动器
+Advanced|高级
+Never|从不
+ON|开
+OFF|关
+On|开
+Off|关闭
+Low|低
+Medium|中
+High|高
+Maximum|最高
+Smooth|平滑
+Normal|普通
+Automatic|自动
+Game|游戏默认
+Game default|游戏默认
+Everything (slow)|详细（较慢）
+Unlimited|不限
+SELECT|选择
+Select|选择
+Back|返回
+Change|调整
+Page|切换页面
+Play|游玩
+Close|关闭
+Tab|切换标签
+PLAY / HOME|开始／主页
+Confirm|确认
+Previous page|上一页
+Next page|下一页
+Play / home|开始／主页
+Right face button|右侧按键
+Bottom face button|下方按键
+Top face button|上方按键
+Left face button|左侧按键
+Left stick click|按下左摇杆
+Right stick click|按下右摇杆
+Left shoulder|左肩键
+Right shoulder|右肩键
+Left trigger|左扳机
+Right trigger|右扳机
+Start / +|开始／+
+Back / -|返回／-
+D-pad left|方向键左
+D-pad up|方向键上
+D-pad right|方向键右
+D-pad down|方向键下
+Docked (TV) mode|底座模式（电视模式）
+Docked: the game renders 1600×900. Handheld: 1280×720.|底座模式以 1600×900 渲染，掌机模式以 1280×720 渲染。
+Fullscreen|全屏
+F11 or Alt+Enter also switches it.|也可以按 F11 或 Alt+Enter 切换。
+Picture shape|画面比例
+21:9 ultrawide (experimental)|21:9 超宽屏（实验性）
+32:9 super-ultrawide (experimental)|32:9 超宽屏（实验性）
+21:9 is theboy181's patch (commissioned by Nikorasu081); 16:10 uses the same spot for 1440×900 (Steam Deck, 1920×1200). They need Docked mode and may cut off a little in videos and some menus. 21:9 and 32:9 are experimental: the game only draws the room you are in, so the extra width can show black past a room's edge.|宽屏比例需要底座模式，部分过场和菜单可能被裁切。21:9 和 32:9 为实验功能，房间边缘外侧可能显示黑色。21:9 补丁由 theboy181 制作。
+Language|游戏语言
+Japanese|日语
+English (US)|英语（美国）
+French|法语
+German|德语
+Italian|意大利语
+Spanish|西班牙语
+Chinese|简体中文
+Korean|韩语
+Dutch|荷兰语
+Portuguese (Brazil): fan translation|葡萄牙语（巴西，玩家汉化）
+Russian|俄语
+Taiwanese|繁体中文
+English (UK)|英语（英国）
+French (Canada)|法语（加拿大）
+Spanish (Latin America)|西班牙语（拉丁美洲）
+Internal resolution|内部分辨率
+The game's 3D resolution. Above your screen's size it is averaged down (smoother edges, no shimmer).|游戏的 3D 渲染分辨率。高于屏幕分辨率时会缩小采样，使边缘更平滑并减少闪烁。
+Renderer|渲染器
+Vulkan output|Vulkan 输出
+Native Vulkan|原生 Vulkan
+Native Vulkan: ScarletNX's Vulkan renderer draws everything; smoothest at high frame rates. OpenGL: best on older graphics cards (Native Vulkan builds its shaders the first time it sees them). Vulkan output: OpenGL draws, Vulkan presents.|原生 Vulkan 使用 ScarletNX 渲染，高帧率更流畅，首次遇到着色器时会编译。旧显卡可选 OpenGL。Vulkan 输出由 OpenGL 渲染、Vulkan 呈现。
+Anti-aliasing (FXAA)|快速抗锯齿（FXAA）
+Smooths jagged edges on the final picture. Not needed above 1× resolution.|平滑最终画面的锯齿。分辨率高于 1 倍时通常无需开启。
+Temporal anti-aliasing (TAA, experimental)|时序抗锯齿（TAA，实验性）
+Smooths edges and shimmer using the previous frames. OpenGL and Native Vulkan. Not used while DLAA runs. Experimental: the background can flicker when shooting.|结合之前的帧平滑边缘、减少闪烁。支持 OpenGL 和原生 Vulkan。启用 DLAA 时停用。射击时背景可能闪烁。
+Ambient occlusion (XeGTAO, experimental)|环境光遮蔽（XeGTAO，实验性）
+Intel XeGTAO: soft shadows in corners, creases and where things touch. OpenGL, and Native Vulkan after a restart. Experimental: a faint line can show at Samus's height.|英特尔 XeGTAO 为角落、缝隙和物体接触处添加柔和阴影。支持 OpenGL，原生 Vulkan 需重启。萨姆斯身高附近可能出现细线。
+Sharpening|锐化
+Sharpens the final picture. Helps when the game looks soft, most at 1× resolution.|锐化最终画面，1 倍分辨率下效果最明显。
+Anisotropic filtering|各向异性过滤
+Sharper floors and walls at an angle.|提高清晰度，斜视地面或墙面时尤其明显。
+Shadows|阴影
+Shadow resolution|阴影分辨率
+Sharper shadow edges. On top of the resolution scale; 4× needs a strong graphics card.|让阴影边缘更清晰。在分辨率倍率基础上继续放大，4 倍需要性能较强的显卡。
+Bloom and lens flares|泛光和镜头光晕
+Smooth keeps the game's soft glow but spreads it over the screen with a cubic filter: no blocky steps at 2× resolution and above. Off removes the glow.|「平滑」保留柔和光晕，并用立方滤波消除 2 倍分辨率及以上的块状边缘。「关闭」会移除光晕。
+Dynamic resolution|动态分辨率
+Lowers the resolution when the graphics card can't keep up.|显卡负载过高时自动降低渲染分辨率。
+Lowest dynamic resolution|动态分辨率下限
+Game's own dynamic resolution|游戏自带动态分辨率
+Let the game lower its own resolution like on the console.|让游戏像在主机上一样自行降低分辨率。
+HDR output (experimental)|HDR 输出（实验性）
+Native Vulkan only, with "Use HDR" on in Windows display settings.|仅原生 Vulkan 支持，还需要在 Windows 显示设置中启用 HDR。
+HDR paper white (nits)|HDR 参考白亮度（尼特）
+OpenGL or Native Vulkan, RTX cards. The Play screen's Graphics page downloads NVIDIA's DLSS.|适用于 RTX 显卡和 OpenGL 或原生 Vulkan。在启动器的「图形」页面下载 NVIDIA DLSS。
+Frame rate|帧率
+60 FPS (console)|60 FPS（主机）
+Dread's engine uses real elapsed time, so the game keeps its speed above 60 when your PC holds the cap steadily. Slow-motion moments run at 60.|系统稳定达到帧率上限时，超过 60 FPS 也保持正常游戏速度。慢动作场景以 60 FPS 运行。
+Force VSync|强制垂直同步
+Can lower FPS a lot on slow PCs.|性能较低的电脑可能明显掉帧。
+FPS counter|帧率计数器
+Shows the frames per second that reach the screen, in the top-left corner.|在屏幕左上角显示实际呈现的帧率。
+60 FPS elevators and loading screens|60 FPS 电梯和加载画面
+The game draws them at 30.|游戏默认以 30 FPS 渲染这些画面。
+Skip any cutscene|跳过任意过场
+Hold - to skip a cutscene, even the first time you see it. A prompt shows in the top-left corner while you can.|长按减号键可跳过过场，包括首次播放的过场。可以跳过时，左上角会显示提示。
+Cutscenes at the frame-rate limit (theboy181)|过场使用设定帧率（theboy181）
+Port of theboy181's 60fps patch: cinematics show a new picture every frame. Off: the game's own 30 FPS.|基于 theboy181 的 60 FPS 补丁。启用时每帧更新过场画面，关闭时使用游戏原本的 30 FPS。
+Fast loading|快速加载
+Shortens the game's fixed 60 ms pauses during loads (about 1 s faster first load).|缩短加载期间固定的 60 毫秒停顿。首次加载约快 1 秒。
+Fast-forward toggle (Tab or L3+R3)|快进开关（Tab 或 L3+R3）
+For elevator and train rides. Don't leave it on during play.|适合搭乘电梯和列车。恢复操作时请关闭。
+Fast-forward speed|快进速度
+Master volume|主音量
+Mix all six surround channels into stereo|将六个环绕声道混合为立体声
+Mouse free aim|鼠标自由瞄准
+Hold the right mouse button and move the mouse to aim in any direction. Left click shoots, middle click arms missiles.|按住鼠标右键并移动可自由瞄准，左键射击，中键切换导弹。
+Aim button toggles (touchpads)|按键切换瞄准（触控板）
+A right click turns free aim on, the next one off, so a touchpad aims with one finger and taps to shoot.|右键点击一次开始自由瞄准，再点一次退出，方便用触控板单指瞄准。
+Mouse aim sensitivity|鼠标瞄准灵敏度
+Percent: higher turns the aim with less mouse movement.|百分比越高，移动鼠标所需的距离越短。
+Button icons|按键图标
+Switch (original)|Switch（原版）
+Automatic: from the controller connected when the game starts. Xbox controllers and the Steam Deck get Xbox icons, DualShock 4 PS4 icons, DualSense PS5 icons, Switch controllers the originals.|根据游戏启动时连接的手柄自动选择图标。Steam Deck 使用 Xbox 图标，Switch 手柄使用原版图标。
+Speakers|扬声器
+Stereo|立体声
+5.1 surround|5.1 环绕声
+5.1: the game's own surround mix (front, centre, subwoofer, rear) goes to your 5.1 speakers or receiver. On stereo speakers Windows mixes it down.|将原始 5.1 环绕声输出至兼容扬声器或功放。使用立体声设备时，由 Windows 混音。
+Confirm / back in menus|菜单确认／返回键
+As in the game (A right, B bottom)|游戏默认（右侧 A，下方 B）
+Swapped (confirm on the bottom button)|交换（下方按键确认）
+Swapped: in the game's menus (pause, map, options, dialogs, title) A and B change places, so the bottom button confirms like on Xbox and PlayStation. Gameplay buttons stay the same.|交换游戏菜单中的 A 和 B，改为下方按键确认。游玩时的按键不受影响。
+Controller support|手柄支持
+Automatic: SDL2 (Switch Pro, Joy-Con, DualShock 4, DualSense, 8BitDo, Xbox) when SDL2.dll is next to the game, else XInput.|游戏目录有 SDL2.dll 时支持 Switch Pro、Joy-Con、DualShock 4、DualSense、八位堂和 Xbox 手柄。否则使用 XInput。
+Player 1 controller|玩家 1 手柄
+0 = any connected controller.|0 表示任意已连接的手柄。
+Stick dead zone|摇杆死区
+Stick sensitivity|摇杆灵敏度
+Percent. Above 100 the sticks reach full tilt sooner; below 100 they move more finely.|高于 100% 时更早达到满幅度，低于 100% 时可更细致地控制。
+Ignore stick snap-back|过滤摇杆回弹
+When you let go of the left stick it can spring past the centre for a moment, which turns Samus around. On: that bounce is ignored for 60 ms after a release.|避免松开左摇杆时因瞬间越过中点而让萨姆斯反向。启用后过滤松手后的 60 毫秒内的回弹。
+Rumble strength|振动强度
+0 = off. Up to 200% boosts soft effects.|0 表示关闭，最高可提高至 200%。
+HD rumble|HD 振动
+Switch Pro Controller, Joy-Con and DualSense play the game's own vibration, left and right, like on the Switch.|Switch Pro、Joy-Con 和 DualSense 可播放游戏原有的左右分区振动。
+Steam Deck trackpad rumble|Steam Deck 触控板振动
+On a Steam Deck the trackpads also play the game's vibration frequencies, on top of the normal grip rumble.|Steam Deck 的触控板会在握把振动之外播放游戏的振动频率。
+Wait for new shaders|等待新着色器
+On: no missing objects, a short stutter the first time an effect appears. Off: no stutter, objects can pop in.|开启时，首次出现效果可能短暂停顿，但物体会完整显示。关闭时，物体可能稍晚出现。
+Build all shaders before playing|游玩前预编译着色器
+OpenGL: the first start after an update or driver change takes up to about 30 s. Native Vulkan: the game's shaders are prepared in the background while the title screen plays, so the first session stutters much less.|OpenGL 更新后首次启动最多约需 30 秒。原生 Vulkan 在标题画面期间后台准备着色器，减少首次游玩的卡顿。
+Compile shaders at low priority|以低优先级编译着色器
+Sleep instead of spinning while waiting for the driver|等待驱动时休眠
+Frees CPU time on 2-4 core PCs.|在 2 至 4 核的电脑上释放 CPU 时间。
+Texture unpacking threads|纹理解包线程
+Memory the game sees|游戏可用内存
+Larger values only help heavily modded games.|较大值只对大量使用模组的游戏有帮助。
+Recording|录制
+Smooth F7 recordings|平滑 F7 录像
+Slow motion while recording if the PC can't keep up; the video plays at normal speed.|录制时电脑跟不上会减慢游戏，保存的视频按正常速度播放。
+Recording FPS|录制帧率
+Debug|调试
+Log detail|日志级别
+Automatic diagnostic dumps|自动生成诊断记录
+CPU profiler (profile.txt every 10 s)|CPU 性能分析（每 10 秒写入 profile.txt）
+In-game menu button|游戏内设置菜单按键
+- and + together|同时按减号和加号
+L3 + R3 held 1 s|同时长按 L3 与 R3 1 秒
+F1 on the keyboard always opens the menu.|随时可按键盘 F1 打开设置菜单。
+Skip the Play screen at start|启动时跳过启动器
+Hold Shift while starting to see it again.|启动时按住 Shift 可再次显示。
+NEXT START|重启后生效
+PICTURE|画面
+CONSOLE|主机
+QUALITY|画质
+RENDERER|渲染器
+SCAN|扫描
+SCAN puts the figure on the reader; the game reads it when it asks for an amiibo.|扫描后会将 amiibo 放在读卡器上，游戏需要时会读取。
+Put amiibo dumps (.bin) in %s|将 amiibo 文件（.bin）放入 %s
+CHEATS|金手指
+FRAME RATE|帧率
+SCENES|过场
+LOADING|加载
+OUTPUT|输出
+SPEAKERS|扬声器
+COMPATIBILITY|兼容性
+MENUS|菜单
+MOUSE|鼠标
+CONTROLLER|手柄
+Controller buttons, keyboard keys and menu navigation are set on the Play screen's Controls page.|手柄按键、键盘映射和菜单导航可以在启动器的「控制」页面设置。
+KEYS|快捷键
+Menu|菜单
+Screenshot|截图
+F3 (F8: full resolution PNG)|F3（F8：全分辨率 PNG）
+Record video|录制视频
+Fast forward (if on)|快进（启用后）
+Tab, or L3 + R3|Tab 或 L3+R3
+Menu / quit|菜单／退出
+Esc (quit: QUIT below)|Esc（下方可退出游戏）
+Move / aim|移动／瞄准
+ABOUT|关于
+Metroid Dread recompiled for PC. SwitchRecomp by MZ Labs; Native Vulkan by ScarletNX; 60 FPS cutscenes by theboy181; Dear ImGui; SDL2. Full credits on the Play screen.|《密特罗德：生存恐惧》PC 重编译版。感谢 MZ Labs 的 SwitchRecomp、ScarletNX 的原生 Vulkan、theboy181 的 60 FPS 过场补丁、Dear ImGui 和 SDL2。完整名单见启动器。
+RESUME|继续游戏
+QUIT: SURE?|确认退出？
+QUIT GAME|退出游戏
+Arrows, Enter, Left/Right, Esc to close, mouse|方向键移动，回车确认，左右调整，Esc 关闭，也可用鼠标
+Keep these display settings?|保留这些显示设置？
+They change back in %d s unless you keep them.|若未确认，将在 %d 秒后还原。
+REVERT|还原
+LIVE|立即生效
+Native for this screen|屏幕原生分辨率
+Quick pick|快速选择
+Native for this screen is %s. Above your screen it is averaged down (smoother edges, no shimmer).|屏幕原生分辨率为 %s。设得更高时会缩小采样，使边缘更平滑并减少闪烁。
+No controller detected (keyboard and mouse work)|未检测到手柄，可以使用键盘和鼠标
+ — connected|（已连接）
+Player 1|玩家 1
+Controller settings|手柄设置
+CONFIGURE|配置
+Resolution %s, %s, picture %s, anisotropic filtering %s×%s, %s, fullscreen.|分辨率 %s，%s，比例 %s，各向异性过滤 %s×%s，%s，全屏。
+, light sharpening|，少量锐化
+Native Vulkan (smoothest at high frame rates)|原生 Vulkan（高帧率更流畅）
+This PC has %d GB of memory; the game needs about 4 GB, so 8 GB is recommended. Close other programs before playing.|本机有 %d GB 内存。游戏约需 4 GB，建议至少有 8 GB。游玩前可关闭其他程序。
+Optional: Graphics > NVIDIA DLAA (GET) gives the cleanest edges on RTX cards.|RTX 显卡可在「图形 → NVIDIA DLAA」中下载 DLAA，以获得更平滑的边缘。
+%s%s  ·  %d×%d at %d Hz  ·  %d CPU threads%s|%s%s  ·  %d×%d，%d Hz  ·  %d 个 CPU 线程%s
+ (integrated)|（集成显卡）
+  ·  %d GB memory|  ·  %d GB 内存
+FIRST-TIME SETUP|首次设置
+This turns your own copy of Metroid Dread (version 2.1.0) into a native PC game. Nothing from Nintendo is included: you provide the game files, and they are compiled on this PC with the bundled GCC. It takes a few minutes and needs about 7 GB of free space here.|使用你提供的《密特罗德：生存恐惧》2.1.0 游戏文件在本机编译 PC 版。首次编译需要几分钟，建议预留约 7 GB 空间。
+YOUR GAME FILES|游戏文件
+CHOOSE|选择
+Game folder (with exefs and romfs)|游戏目录（包含 exefs 和 romfs）
+Choose your extracted Metroid Dread folder|选择已提取的《密特罗德：生存恐惧》目录
+Dump the game and its 2.1.0 update from your own Switch and extract them with the update applied (or use an emulator's Extract RomFS / Extract ExeFS with the update installed). That gives the 2.1.0 ExeFS and an already merged RomFS. You can also pick a folder that has exefs and romfs directly.|选择包含 2.1.0 版 exefs 和 romfs 的目录。如果用模拟器提取，请先应用 2.1.0 更新，再提取 ExeFS 和 RomFS。
+OPTIONAL|可选
+Update folder (if extracted separately)|更新目录（单独提取时填写）
+Choose the extracted 2.1.0 update folder|选择已提取的 2.1.0 更新目录
+Only if your base game and the 2.1.0 update were extracted to separate folders. The update's ExeFS is used, and its RomFS files are layered over the base game's. Every file is then checked against the 2.1.0 file list, so a partial or unmerged update is caught.|仅在本体和 2.1.0 更新位于不同目录时填写。启动器会合并文件，并逐一校验版本。
+BRING OVER FROM YOUR EXISTING INSTALLATION|从已有安装导入
+Found|已找到
+Settings (graphics, controls, launcher choices)|设置（图形、控制、启动器选项）
+Saves (%.1f KB, copied: the originals are only read)|存档（%.1f KB，复制一份）
+Mods and texture packs (%.0f MB)|模组和纹理包（%.0f MB）
+Shader caches (%.0f MB, fewer first-time stutters)|着色器缓存（%.0f MB，可减少首次卡顿）
+START SETUP|开始安装
+Settings picked for this PC: |已为本机选择设置：
+ Change them any time, or use AUTO-SET on the Play screen.|可随时修改，或在开始页面使用「自动设置」。
+SETUP COMPLETE|安装完成
+SETUP STOPPED|安装已停止
+BUILDING METROID DREAD|正在编译《密特罗德：生存恐惧》
+You can leave this running. Everything is kept if it stops: Retry continues where it left off.|可以让安装在后台继续。若中途停止，重试会从上次进度继续。
+100%  —  Done|100% · 完成
+   ·   about %d min left|   ·   剩余约 %d 分钟
+%s   ·   %d:%02d elapsed%s|%s   ·   已用时 %d:%02d%s
+Try again (continues where it stopped)|重试（从上次进度继续）
+RETRY|重试
+Choose other game files|选择其他游戏文件
+BACK|返回
+Open the full log (setup.log)|打开完整日志（setup.log）
+OPEN|打开
+RESTART|重启
+CONTINUE|继续
+Stop setup (you can continue it later)|停止安装（之后可继续）
+CANCEL|取消
+LOG|日志
+an older version|旧版本
+This version has game fixes your game code doesn't have yet (a few minutes)|当前版本包含新的游戏修正，需要几分钟重新编译。
+REBUILD|重新编译
+Version %s is available (you have %s)|有新版本 %s（当前版本 %s）
+UPDATE|更新
+What's new in it|查看更新内容
+Only the files that changed are downloaded, each one is checked before anything is replaced, and the replaced files are kept so you can go back. Your saves and settings are not touched.|只下载有变动的文件，校验后替换，并保留原文件以便回退。存档和设置会保留。
+Version %s is installed. Restart to use it|已安装 %s，重启后生效
+Update|更新
+Version %s is installed (%d files)|已安装 %s（%d 个文件）
+Version %s is installed. The game code must be rebuilt (a few minutes)|已安装 %s。游戏代码需重新编译，约需几分钟。
+Checking...|正在检查……
+Version|版本
+%s (the newest)|%s（最新版）
+Logs packed: |日志包已生成：
+. Drag it into the bug report.|。请把它拖入问题报告。
+RESOLUTION|分辨率
+FPS TARGET|目标帧率
+CHANGE  ▸|调整  ▸
+BEST SETTINGS FOR THIS PC|本机推荐设置
+Detected|检测结果
+Not sure what to pick? Choose the best settings for this PC|按本机配置自动选择设置
+AUTO-SET|自动设置
+ Anything can still be changed afterwards.|之后仍可逐项调整。
+SAVES|存档
+Save data|存档数据
+Every slot is backed up together. Close the game first.|先退出游戏，备份会包含所有存档槽。
+No saves yet.|还没有存档。
+Back up saves now|立即备份存档
+BACK UP|备份
+Saves backed up: |存档已备份：
+Backup failed: |备份失败：
+Open backups folder|打开备份目录
+Open saves folder|打开存档目录
+Add Metroid Dread to Steam as a non-Steam game|将《密特罗德：生存恐惧》添加为非 Steam 游戏
+ADD|添加
+Uses this game's icon. Steam is closed and started again if it's running.|使用游戏图标。如果 Steam 正在运行，会将其重启。
+Starts this AppImage (or run.sh) from Steam. Steam is closed and started again if it's running: on a Steam Deck, add it from Desktop Mode.|通过 Steam 启动 AppImage 或 run.sh。若 Steam 正在运行，会重启。在 Steam Deck 上请从桌面模式添加。
+UPDATES|更新
+Check for a new version now|立即检查新版本
+CHECK|检查
+Check for a new version when this screen opens|打开启动器时检查更新
+Go back to the version before the last update|恢复到上一次更新前的版本
+UNDO|回退
+Updates come from this project's GitHub releases page and only replace this game's own files.|更新来自项目的 GitHub 发布页，会替换 PC 移植程序文件。
+PROBLEMS|问题反馈
+Report a problem: pack the logs and open the bug report page|打包日志并打开问题反馈页面
+REPORT|反馈
+The zip has this game's logs and settings, nothing else (no saves, no game files). Logs show your Windows user name in folder paths. Drag the zip into the report.|压缩包包含游戏日志和设置。日志的路径可能含 Windows 用户名。请将压缩包拖入问题报告。
+The zip has this game's logs and settings, nothing else (no saves, no game files). Logs show your user name in folder paths. Drag the zip into the report.|压缩包包含游戏日志和设置。日志的路径可能含用户名。请将压缩包拖入问题报告。
+FOLDERS|目录
+Game folder|游戏目录
+Screenshots and recordings|截图和录像
+Console mode, window and picture shape. These apply when the game starts.|主机模式、窗口和画面比例。启动游戏时生效。
+CONSOLE MODE|主机模式
+WINDOW|窗口
+PICTURE SHAPE|画面比例
+Docked mode switched on: the picture shape only applies there|已启用底座模式，画面比例仅在此模式生效。
+LANGUAGE|游戏语言
+Portuguese text|葡萄牙语文本
+Installed: the JumpmanClub Brasil fan translation|已安装 JumpmanClub Brasil 玩家译本
+Not installed yet: the game shows English until you add it|尚未安装译本，游戏暂时显示英文。
+Download the translation from JumpmanClub Brasil's website|从 JumpmanClub Brasil 网站下载译本
+Add the downloaded .zip|添加下载的 ZIP
+Choose the translation (.zip)|选择译本（ZIP）
+Zip archive|ZIP 压缩包
+Installing...|正在安装……
+Portuguese translation installed|已安装葡萄牙语译本
+Add the extracted folder|添加已解压的目录
+Choose the extracted translation folder|选择解压后的译本目录
+Metroid Dread has no Portuguese of its own: this is the fan translation by JumpmanClub Brasil (MrVtR, CaninosVermelhos, Davi Prado, hhgo cb, EsaanAlencar). It applies at the next game start. With it on, button symbols inside text stay Switch-style: the translation and the icon packs change the same font texture.|葡萄牙语由 JumpmanClub Brasil 玩家团队翻译，下次启动游戏时生效。译本与按键图标包会修改同一字体纹理，所以正文中的按键图标保留 Switch 样式。
+Resolution, renderer and image quality.|设置分辨率、渲染器与画质。
+EXPERIMENTAL|实验性
+NVIDIA DLAA anti-aliasing|NVIDIA DLAA 抗锯齿
+Cleaner edges than TAA, from NVIDIA's DLSS (RTX cards). Applies at the next start.|基于 NVIDIA DLSS，RTX 显卡可获得比 TAA 更平滑的边缘。下次启动生效。
+DOWNLOADING...|正在下载……
+Getting NVIDIA's DLSS (59 MB) from NVIDIA. It turns on when the download is done.|正在从 NVIDIA 下载 DLSS（59 MB），完成后自动开启。
+GET|下载
+NVIDIA's licence for DLSS|NVIDIA DLSS 许可证
+READ|查看
+Cleaner edges than TAA on RTX cards. DLSS is NVIDIA's and not part of this game: GET downloads it from NVIDIA (59 MB) and turns DLAA on. By pressing GET you accept NVIDIA's licence for it (READ).|RTX 显卡可使用 DLAA 改善边缘。点击「下载」会从 NVIDIA 获取 DLSS（59 MB）并开启 DLAA，同时表示接受 NVIDIA 许可证。点击「查看」可阅读条款。
+Frame rate, cinematics and loading.|设置帧率、过场与加载行为。
+LOADING AND RIDES|加载与移动场景
+Atmosphere cheat files (.txt) for version 2.1.0 (build id %s). Cheats that change values (energy, missiles, items) work; ones that patch the game's code can't, because the code is recompiled. You can also switch them in the in-game menu (F1).|使用 2.1.0 的 Atmosphere 金手指文件（.txt），构建标识 %s。支持修改能量、导弹和道具等数值。游戏中可用 F1 切换。
+Cheats|金手指
+None yet: add a cheat file below.|暂未添加金手指，可在下方添加。
+Always on (master code)|始终启用（主代码）
+Cheats saved|金手指设置已保存
+Add a cheat file (.txt)|添加金手指文件（.txt）
+Choose a cheat file|选择金手指文件
+Cheat file added|已添加金手指文件
+Cheats folder|金手指目录
++ (pause)|+（暂停）
+- (map)|-（地图）
+Disabled|禁用
+B (jump)|B（跳跃）
+Y (shoot)|Y（射击）
+L (free aim)|L（自由瞄准）
+R (missiles)|R（导弹）
+Move left|向左移动
+Move up|向上移动
+Move right|向右移动
+Move down|向下移动
+Right stick left|右摇杆左
+Right stick up|右摇杆上
+Right stick right|右摇杆右
+Right stick down|右摇杆下
+Space|空格
+Enter|回车
+Backspace|退格
+Left arrow|左方向键
+Right arrow|右方向键
+Up arrow|上方向键
+Down arrow|下方向键
+Key %d|键 %d
+%s = %s (taken from %s)|%s = %s（原先分配给 %s）
+Pair Bluetooth controllers in Windows Settings first. With SDL2 the game supports Switch Pro, Joy-Con, DualShock 4, DualSense, 8BitDo and Xbox controllers over USB or Bluetooth.|蓝牙手柄请先在 Windows 设置中配对。SDL2 支持通过 USB 或蓝牙连接 Switch Pro、Joy-Con、DualShock 4、DualSense、八位堂和 Xbox 手柄。
+CONTROLLER SUPPORT|手柄支持
+Installed next to the game|已安装在游戏目录
+Not installed: only Xbox (XInput) controllers work|未安装，仅支持 Xbox（XInput）手柄
+Use another SDL2.dll|使用其他 SDL2.dll
+Choose SDL2.dll|选择 SDL2.dll
+SDL2.dll installed: restart the launcher to use it|SDL2.dll 已安装，重启启动器后生效
+Copy failed|复制失败
+BUTTON ICONS|按键图标
+%s icons|%s 图标
+Installed  (by %s)|已安装（作者 %s）
+%s icons: not installed  (by %s, from GameBanana)|%s 图标尚未安装（%s 制作，来自 GameBanana）
+Downloading...|正在下载……
+%s icons installed|已安装 %s 图标
+Icon packs are community mods from gamebanana.com, downloaded only when you press GET. Applies at the next game start.|图标包来自 GameBanana 社区，点击下载后获取，下次启动时生效。
+PLAYER 1|玩家 1
+Any connected controller|任意已连接的手柄
+SELECTED|已选择
+USE|使用
+Connected|连接状态
+No controller found. Connect or pair one.|未发现手柄，请连接或配对。
+LIVE TEST|实时测试
+R stick|右摇杆
+L stick|左摇杆
+HOME / GUIDE pressed|已按下 HOME／GUIDE
+FEEL|振动
+Test rumble|测试振动
+PULSE|振动
+GAME BUTTONS|游戏按键
+Physical position on your controller → the button Metroid Dread receives. Applies in the game right away. Keyboard and sticks are unchanged.|将手柄上的按键位置映射到游戏按键。立即生效，键盘和摇杆保持原来的映射。
+Default (Switch positions)|默认（Switch 布局）
+APPLY|应用
+Match Xbox face letters (A bottom, B right)|按 Xbox 字母布局（下方 A，右侧 B）
+MENU NAVIGATION|菜单导航
+Navigate menus with a controller|用手柄操作菜单
+Positions|按键位置
+Button prompts|按键提示
+Two actions share a button: pick a different one (not saved until each action has its own)|有两个操作使用同一个按键，请重新分配。每个操作都有独立按键后才会保存。
+Reset menu buttons|重置菜单按键
+RESET|重置
+Menu buttons reset|菜单按键已重置
+Locked out? Hold + and - together for 3 seconds on any screen, or use the keyboard (arrows, Enter, Esc) or the mouse.|若手柄无法操作，长按 + 和 - 3 秒，或使用方向键、回车、Esc 或鼠标。
+KEYBOARD|键盘
+Press SET, then the key. A key does one thing: giving it to another action takes it from the old one. Esc cancels. Esc, Tab and the F keys keep their jobs.|点击「设置」后按键。一个键只能绑定一个操作。按 Esc 取消。Esc、Tab 和功能键保留原用途。
+press a key...|请按键……
+ or | 或 
+SET|设置
+Default keys (WASD, X/Space, Z, C, V, Shift, F, arrows)|恢复默认按键（WASD、X／空格、Z、C、V、Shift、F、方向键）
+Keyboard reset to the default keys|已恢复默认键盘映射
+F3 (F8 full resolution)|F3（F8：全分辨率）
+F11 or Alt+Enter|F11 或 Alt+Enter
+Fast forward|快进
+Quit|退出
+Free aim (L)|自由瞄准（L）
+Hold right mouse button, move the mouse|按住鼠标右键并移动
+Shoot (Y)|射击（Y）
+Left mouse button|鼠标左键
+Missiles (R)|导弹（R）
+Middle mouse button|鼠标中键
+MODS & TEXTURE PACKS|模组与纹理包
+Mods replace game files (RomFS): texture packs, models, text, sounds. Mods lower in the list win when two change the same file. Changes apply on the next game start.|模组可替换 RomFS 中的纹理、模型、文本或声音。多个模组修改同一文件时，列表中靠下的模组优先。下次启动时生效。
+INSTALLED|已安装
+Mods|模组
+None installed yet.|还没有安装模组。
+Button icons: chosen under Controls|按键图标可在「控制」中选择
+Portuguese text: applies with Display > Language > Portuguese|葡萄牙语文本可在「显示 → 游戏语言」启用
+%s   (%d files, %.1f MB)|%s（%d 个文件，%.1f MB）
+SELECTED: |已选：
+Move up (lower priority)|上移（降低优先级）
+UP|上移
+Move down (higher priority)|下移（提高优先级）
+DOWN|下移
+Remove (to the Recycle Bin)|移到回收站
+REMOVE|移除
+Mod moved to the Recycle Bin|模组已移到回收站
+Add a .zip|添加 ZIP 压缩包
+Choose a mod or texture pack (.zip)|选择模组或纹理包（ZIP）
+Extracting...|正在解压……
+Mod installed|模组已安装
+Add a folder|添加目录
+Choose a mod folder (with romfs inside)|选择包含 romfs 的模组目录
+Open the mods folder|打开模组目录
+A mod is a folder with a 'romfs' inside, laid out like the game's own RomFS. Atmosphere-style zips (atmosphere/contents/010093801237C000/romfs) are recognised.|模组目录内需有与游戏资源结构一致的 romfs。兼容 Atmosphere 格式的 ZIP 压缩包。
+Couldn't open that file|无法打开该文件
+That isn't a yuzu-style pipeline cache (vulkan.bin)|该文件不是 yuzu 格式的流水线缓存（vulkan.bin）。
+That cache is format %u: only format 5 (yuzu, 2021-2022) can be read so far|缓存格式为 %u。目前仅支持格式 5（yuzu，2021 至 2022 年）。
+Couldn't write to the vulkan_native folder|无法写入 vulkan_native 目录
+Cache imported: Native Vulkan builds its pipelines at the next start|缓存已导入，原生 Vulkan 会在下次启动时构建流水线。
+Couldn't copy the cache|无法复制缓存
+Shaders, CPU, memory, diagnostics and recommendations.|设置着色器、CPU、内存、诊断与推荐选项。
+RECOMMENDED FOR THIS PC|本机推荐设置
+ Also: docked, shaders saved as you play, 60 FPS loading screens.|另启用底座模式、游玩时缓存着色器和 60 FPS 加载画面。
+ Also: docked, shaders built before playing, 60 FPS loading screens.|另启用底座模式、预编译着色器和 60 FPS 加载画面。
+Apply the recommended settings|应用推荐设置
+Recommended settings applied|已应用推荐设置
+SHADERS|着色器
+Native Vulkan comes with the game's pipelines listed, and builds them in the background at start. You can add your own pipeline cache from yuzu (vulkan.bin in its shader folder for Metroid Dread): only the list is used, the shaders always come from your game files.|原生 Vulkan 会在启动时按内置清单在后台构建流水线。可以导入 yuzu 的 vulkan.bin 补充清单，着色器仍由游戏文件生成。
+Import a yuzu pipeline cache (vulkan.bin)|导入 yuzu 流水线缓存（vulkan.bin）
+Choose a yuzu pipeline cache (vulkan.bin)|选择 yuzu 流水线缓存（vulkan.bin）
+Pipeline cache|流水线缓存
+MEMORY|内存
+RECORDING (F7)|录制（F7）
+DIAGNOSTICS|诊断
+START-UP|启动
+Start the game directly (skip this screen)|直接启动游戏（跳过此页面）
+Hold Shift while starting the game to see this screen again.|启动时按住 Shift 即可再次显示此页面。
+Start the game with --launcher to see this screen again.|通过 --launcher 参数启动可再次显示此页面。
+FILES|文件
+Open the settings file in Notepad|用记事本打开设置文件
+Open the settings file in a text editor|用文本编辑器打开设置文件
+Open the setup log|打开安装日志
+Check game files and rebuild|检查游戏文件并重新编译
+Metroid Dread recompiled for PC. Metroid Dread is © Nintendo; this program contains none of its files and needs your own copy.|《密特罗德：生存恐惧》PC 重编译版。游戏版权归任天堂所有，请使用自己的游戏文件。
+Project lead: this Metroid Dread PC version, its testing and its direction.|项目负责人，主导 PC 版开发方向和测试。
+AI pair programmer: runtime fixes and performance work, this front end and in-game menu, setup, the Linux build, testing and documentation.|AI 编程协作，参与运行时修复、性能优化、启动器、游戏内菜单、安装、Linux 构建、测试和文档。
+The static recompiler and runtime this build is made from (Apache-2.0). "SwitchRecomp by MZ Labs" credit and NOTICE kept.|该版本基于 SwitchRecomp 的静态重编译器和运行时（Apache-2.0），保留 MZ Labs 署名及 NOTICE。
+ScarletNX contributors|ScarletNX 贡献者
+Native Vulkan renderer: GPU front end, Maxwell to SPIR-V shader translation (GPL-3.0).|原生 Vulkan 渲染器的 GPU 前端及 Maxwell 到 SPIR-V 的着色器转换（GPL-3.0）。
+Button-icon mods: Switch to XBOX Layout (Krydar), Switch to PS4 Layout (Nova77), Switch to PS5 Layout (xSeRosiSx), downloaded from gamebanana.com when you choose them.|按键图标模组由 Krydar（Xbox）、Nova77（PS4）和 xSeRosiSx（PS5）制作，可从 GameBanana 下载。
+The PlayStation button art in those icon mods.|图标模组所用的 PlayStation 按键图案。
+The program icon: Metroid icon created by Smashicons, flaticon.com/free-icons/metroid (Flaticon licence).|程序图标由 Smashicons 制作（Flaticon 许可证）。
+Brazilian Portuguese fan translation (jumpmanclubbrasil.com.br), which you add under Display > Language: MrVtR (Vitor Ribeiro), translator, romhacker and proofreader; CaninosVermelhos (Philipe Rodrigues), Davi Prado and hhgo cb, translators; EsaanAlencar, proofreader.|巴西葡萄牙语译本见「显示 → 游戏语言」。感谢 MrVtR、CaninosVermelhos、Davi Prado、hhgo cb 和 EsaanAlencar。
+60 FPS cutscenes, 21:9 ultrawide and other Dread patches (github.com/theboy181/switch-ptchtxt-mods); 21:9 commissioned by Nikorasu081.|60 FPS 过场、21:9 超宽屏及其他补丁，由 theboy181 制作。21:9 补丁由 Nikorasu081 委托。
+This interface (MIT).|界面库（MIT）。
+Controller support (zlib licence).|手柄支持（zlib 许可证）。
+Fast game-data decompression (zlib licence).|游戏数据解压（zlib 许可证）。
+VP9 video playback (BSD).|VP9 视频播放（BSD）。
+H.264 video decoding (BSD).|H.264 视频解码（BSD）。
+The bundled compiler used by setup (GPL / LGPL with runtime exception, ZPL, PSF).|安装时使用的编译工具（含运行时例外的 GPL／LGPL，ZPL，PSF）。
+Public documentation of the Switch audio renderer and services, used as reference.|参考其公开的 Switch 音频渲染器和系统服务文档。
+LICENCES|许可证
+Full licence texts are in the licenses folder next to the game. The runtime is GPL-3.0 when built with the Native Vulkan renderer; its source is published with the release.|完整许可证见游戏目录的 licenses 文件夹。含原生 Vulkan 的运行时采用 GPL-3.0，源码随版本发布。
+Open the licenses folder|打开许可证目录
+Game version 2.1.0|游戏版本 2.1.0
+Arrows: move   Enter: select   Left / Right: change   Esc: back   F11: fullscreen|方向键移动 · 回车选择 · 左右键调整 · Esc 返回 · F11 全屏
+Test pad|测试手柄
+Menu buttons reset to the defaults|菜单按键已恢复默认
+Not changed|未更改
+%s is reserved: pick another key|%s 已保留，请改用其他键。
+Setup is still running. Stop it? (You can continue it later.)|安装仍在进行。要停止吗？之后可以继续。
+Direct3D 11 is not available: the Play screen can't open. The game will start directly.|Direct3D 11 不可用，将直接启动游戏。
+This key can't be used: pick another key|此键不可用，请改用其他键。
+The game has not been compiled yet.|游戏尚未编译。
+Game data is missing.|缺少游戏数据。
+Ready.|已就绪。
+Cancelled.|已取消。
+The compiler stopped with an error (see the log).|编译器遇到错误并停止，请查看日志。
+Starting|正在启动
+Checking files|正在检查文件
+Checking game files|正在检查游戏文件
+Game data|游戏数据
+Translating the game code|正在转换游戏代码
+Applying Metroid Dread fixes|正在应用游戏修正
+Compiling the game|正在编译游戏
+Linking|正在链接
+Done|已完成
+Unpacking|正在解包
+Installing|正在安装
+No earlier version to go back to.|没有可回退的旧版本。
+The save folder is empty.|存档目录为空。
+Saves changed during the backup. Close the game and try again.|备份期间存档发生变化。请退出游戏后重试。
+Backup verification failed.|备份校验失败。
+There are no logs yet. Start the game once, then try again.|目前没有日志。请先启动游戏一次，再重试。
+Download failed: check the internet connection.|下载失败，请检查网络连接。
+The download does not match NVIDIA's file (checksum): nothing was installed.|下载文件未通过 NVIDIA 文件校验。
+nvngx_dlss.dll could not be written to the game folder.|无法将 nvngx_dlss.dll 写入游戏目录。
+could not start the download|无法开始下载
+The download could not be extracted.|无法解压下载文件。
+The zip could not be extracted.|无法解压 ZIP 文件。
+Pick a cheat .txt file|选择金手指文件（.txt）
+That name is used by the game: rename the file first|游戏已使用此名称，请先重命名文件。
+Could not copy the file|无法复制文件
+No 'romfs' folder in this mod. Only RomFS (file replacement) mods and texture packs work with the recompiled game; exefs/code patches can't apply.|模组缺少 romfs 目录。PC 重编译版支持 RomFS 文件替换模组和纹理包。
+That isn't the Metroid Dread translation: no system/localization/us_english.txt inside.|无法识别译本，其中缺少 system/localization/us_english.txt。
+Setup complete.|安装完成。
+Spacebar|空格键
+Settings|设置
+Display settings|显示设置
+Input|输入
+Debugging|调试
+Reset to defaults|恢复默认
+Save|保存
+SHOW|显示
+HIDE|隐藏
+CLOSE|关闭
+KEEP|保留
+Native for this display|显示器原生分辨率
+Could not unpack (tar.exe is missing).|无法解包，系统缺少 tar.exe。
